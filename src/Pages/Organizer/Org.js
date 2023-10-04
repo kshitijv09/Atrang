@@ -15,7 +15,6 @@ import Siddharth from "../../Assests/sid.jpeg";
 import Dipesh from "../../Assests/DipeshTalekar.jpg";
 import Mayank from "../../Assests/mayank-sonkar-new.png";
 import Yashdeep from "../../Assests/Yashdeep.jpeg";
-import Kshitij from "../../Assests/kshitij.jpg";
 import Adithya from "../../Assests/Adithya.jpg";
 import Vijaya from "../../Assests/Vijay.jpg";
 import Vaidik from "../../Assests/Vaidik.jpg";
@@ -24,7 +23,6 @@ import Bharadwaj from "../../Assests/Bharadwaj.jpg";
 import Anshika from "../../Assests/Anshika.jpg";
 import ChintalaS from "../../Assests/ChintalaS.jpg";
 import Gnana from "../../Assests/GnanaKishore.jpeg";
-import Pranav from "../../Assests/Pranav.jpeg";
 import Keshav from "../../Assests/Keshav.jpg";
 import Suman from "../../Assests/Suman.jpg";
 import Shubham from "../../Assests/shubham.jpeg";
@@ -43,6 +41,15 @@ import abdul from "../../Assests/Mohammed Abdul Akram_1st year.jpeg";
 import kamal from "../../Assests/N Kamal Raj_2nd Year.jpg";
 import rohit from "../../Assests/Yara Rohit Vathsal_2nd Year.jpg";
 
+import Atharva from "../../Assets/Atharva.jpeg"
+import Hitanshu from "../../Assets/Hitanshu.jpg"
+import Pradeep from "../../Assets/Pradeep_Vidiyala.jpg"
+import Kshitij from "../../Assets/Kshitij.jpeg"
+import Laksh from "../../Assets/Laksh.jpeg"
+import VPRM from "../../Assets/VPRM.jpg"
+import Pranav from "../../Assets/Pranav.jpeg"
+import Neel from "../../Assets/Neel.jpg"
+
 const Org = () => {
   return (
     <div className="event-page--container">
@@ -56,60 +63,54 @@ const Org = () => {
       </div>
       
       <div className="card-container--organizer">
-        <OrgCard image={Shubham} name={"Shubham K Bhagat"} des="4th Year" />
-        <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th Year" />
-        <OrgCard image={Vaibhav} name={"Vaibhav Agarwal"} des="3rd Year" />
-        <OrgCard image={Harsh} name={"Harsh Agarwal"} des="3rd Year" />
-        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
-        <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="3rd Year" />
-      </div>
-      <OrgHeading title="Coding Contest" />
-
-      <div className="card-container--organizer card-container--org">
-        <OrgCard image={Jaggu} name={"Jagmohan Dixit"} des="3rd year" />
-        <OrgCard image={Aditya} name={"Aditya Pareek"} des="3rd year" />
-        <OrgCard image={Sachin} name={"Sachin Tayal"} des="3rd year" />
-        <OrgCard image={KrishnaRai} name={"Krishna Rai"} des="2nd year" />
+        <OrgCard image={Atharva} name={"Atharva More"} des="3rd Year" />
+        <OrgCard image={Hitanshu} name={"Hitanshu Kaushik"} des="3rd Year" />
+        <OrgCard image={Pradeep} name={"Vidiyala Pradeep"} des="3rd Year" />
       </div>
 
       <OrgHeading title="Hackathon" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Mayank} name={"Mayank Sonkar"} des="4th year" />
-        <OrgCard image={Yashdeep} name={"Yashdeep Rao"} des="4th year" />
-        <OrgCard image={Kshitij} name={"Kshitij Verma"} des="2nd year" />
+        <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="4th year" />       
+        <OrgCard image={Kshitij} name={"Kshitij Verma"} des="3rd year" />
+        <OrgCard image={Laksh} name={"Lakshendra Sejwani"} des="2nd year" />
       </div>
 
+      <OrgHeading title="Coding Contest" />
+
+      <div className="card-container--organizer card-container--org">
+        <OrgCard image={Jaggu} name={"Jagmohan Dixit"} des="4th year" />
+        <OrgCard image={Aditya} name={"Aditya Pareek"} des="4th year" />
+        <OrgCard image={Sachin} name={"Sachin Tayal"} des="4th year" />
+        <OrgCard image={KrishnaRai} name={"Krishna Rai"} des="3rd year" />
+      </div>
+
+      
       <OrgHeading title="Capture The Flag" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Adithya} name={"P Adithya Venkatesh"} des="4th year" />
-        <OrgCard image={Vijaya} name={"Vijaya Pratap Reddy M"} des="3rd year" />
-        <OrgCard image={Vaidik} name={"Vaidik Bhongade"} des="2nd year" />
+        
+        <OrgCard image={VPRM} name={"Vijaya Pratap Reddy M"} des="4th year" />
+        
       </div>
 
-      <OrgHeading title="Circuit Design" />
+      <OrgHeading title="Line Chasers" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Bharadwaj} name={"Bharadwaj Routhu"} des="3rd year" />
-        <OrgCard image={Anshika} name={"Anshika"} des="2nd year" />
+        <OrgCard image={Neel} name={"Neel Shah"} des="3rd year" />
+        
       </div>
 
-      <OrgHeading title="mock interview" />
+      <OrgHeading title="Crash Course" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Krishna} name={"Krishna Laddha"} des="4th year" />
-        <OrgCard image={Siddharth} name={"Siddharth Sahu"} des="4th year" />
-        <OrgCard image={Navneet} name={"Navneet Rai"} des="4th year" />
-        <OrgCard image={ChintalaS} name={"Chintala Sravani"} des="4th year" />
-        <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
-        <OrgCard image={Naresh} name={"Naresh Reddy"} des="4th year" />
-        <OrgCard image={Jaswanth} name={"Jaswanth Reddy"} des="4th year" />
+        
+      <OrgCard image={Neel} name={"Neel Shah"} des="3rd year" />
       </div>
       
-      <OrgHeading title="Tech Trivia" />
+      <OrgHeading title="Model Runway" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Pranav} name={"Pranav Tiwari"} des="3rd year" />
-        <OrgCard image={Gnana} name={"Gnana Kishore"} des="3rd year" />
+      <OrgCard image={Pranav} name={"Pranav Tiwari"} des="4th year" />
+        <OrgCard image={Atharva} name={"Atharva More"} des="3rd year" />
       </div>
 
-      <OrgHeading title="Venture Vision" />
+      <OrgHeading title="Venture Quest" />
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Suman} name={"Suman Raj"} des="3rd year" />
       </div>

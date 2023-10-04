@@ -1,6 +1,6 @@
 import Jaggu from "../Assests/jaggu1.jpg"
 import MayankSonkar from "../Assests/mayank-sonkar-new.png";
-import Kshitij from "../Assests/kshitij.jpg";
+import Kshitij from "../Assets/Kshitij.jpeg"
 
 
 export const WebTeamData = [
@@ -14,17 +14,6 @@ export const WebTeamData = [
       linkedIn: "https://www.linkedin.com/in/mayank-sonkar-17a8401b6/",
       portfolio: "https://heymayank.herokuapp.com/",
       tag: "mayank",
-    },
-    {
-      key: "2",
-      img: Jaggu,
-      name: "Jagmohan Dixit",
-      about:
-        "I was first drawn to coding to learn about this field, but I quickly became obsessed with the procedure. I have developed a variety of projects and sharpened my talents through designing and creating web apps. Regardless of its size, I approach every project with passion and dedication.I have a constant desire to overcome obstacles and push the limits of what is feasible.I'm always looking for ways to advance and innovate in my field.",
-      email: "201212@iiitt.ac.in",
-      linkedIn: "https://www.linkedin.com/in/jagmohandixit",
-      portfolio: "https://hellojaggu.surge.sh",
-      tag: "jaggu",
     },
     {
       key: "3",

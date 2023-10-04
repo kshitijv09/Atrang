@@ -1,10 +1,10 @@
-import TT from "../Assests/techtrivia.jpg";
-import VV from "../Assests/venturevision.jpg";
-import CTF from "../Assests/capture-the-flag.jpg";
-import Hackathon from "../Assests/hackathon.jpg";
-import CD from "../Assests/circuitdesign.jpg";
-import MI from "../Assests/mockinterview.jpg";
-import CC from "../Assests/codingcontest.jpg";
+import HK from "../Assets/Hackathon.jpg"
+import LC from "../Assets/Linechasers.png"
+import VQ from "../Assets/Linechasers.png"
+import MR from "../Assets/ML.png"
+import CR from "../Assets/CrashCourse.png"
+import CC from "../Assets/CPContest.jpeg"
+import CF from "../Assets/CTF.png"
 
 
 export const EventData = [
@@ -12,60 +12,60 @@ export const EventData = [
     key: "4",
     title: "hackathon",
     descrip:
-      "Hackathon or Codefest is a social coding event that brings programmers and other interested people together for a short period of time to collaborate and build a new software program.",
-    image: Hackathon,
-    link: "https://forms.gle/4A59aq45wBhAjvRTA",
+      "A fast-paced, collaborative coding competition where participants develop innovative solutions to real-world problems",
+    image: HK,
+    link: "https://forms.gle/HZcDVLF8cDV7X7Up9",
     first: "(₹)1500",
     second: "(₹)1000",
   },
   {
     key: "1",
-    title: "mock interview",
+    title: "Line Chasers",
     descrip:
-      "Mock interview helps in preparing candidates for the rigorous and often nerve-wracking experience of a job interview by simulating the same format, structure, and questioning style as in a professional setting.",
-    image: MI,
+      "A competition where robots follow predefined paths in a test of precision and programming.",
+    image: LC,
     link: "https://forms.gle/wk5dKSY2K8LgeG1B6",
     first: "(₹)1000",
     second: "(₹)500",
   },
   {
     key: "9",
-    title: "Venture Vision",
+    title: "Venture Quest",
     descrip:
-      "The participating team will be provided with some problem statements and will need to develop a viable business plan based on the given problem",
-    image: VV,
-    link: "https://forms.gle/LgBQzVWB98J1hZ7K9",
+      "A competitive platform for aspiring entrepreneurs to present and develop their business ideas.",
+    image: VQ,
+    link: "https://forms.gle/xxf6YY4haK19q3kz5",
     first: "(₹)1000",
     second: "(₹)500",
   },
   {
     key: "2",
-    title: "coding contest",
+    title: "Model Runway",
     descrip:
-      "Coding contest is a mind sport usually held over the internet or a local network, involves a set of logical or mathematical problems, and participants are required to write computer programs for the given problems.",
-    image: CC,
-    link: "https://forms.gle/porFsdiQNiautUeT9",
+      "Where analytics and creativity take center stage.",
+    image: MR,
+    link: "https://forms.gle/dGBttqxjSf4D1Z4D7",
     first: "(₹)1000",
     second: "(₹)500",
   },
 
   {
     key: "8",
-    title: "Tech Trivia",
+    title: "Crash Course",
     descrip:
-      "The quiz consists of three rounds covering diverse topics in computer science, electronics, and recent breakthroughs. Thequestions are designed to challenge your understanding and testyour ability to apply technical concepts in real-world scenarios",
-    image: TT,
+      "A challenge focused on creating autonomous systems capable of detecting and avoiding obstacles in real-world scenarios.",
+    image: CR,
     link: "https://forms.gle/tjLcLV7yAhANm2mu6",
     first: "(₹)1000",
     second: "(₹)500",
   },
   {
     key: "10",
-    title: "Circopt ",
+    title: "Coding Contest",
     descrip:
-      "Circuit Building event is a fun and practical way to learn building circuits. Hop in, and take on the challenge to win some exciting prizes. See you in the arena.",
-    image: CD,
-    link: "https://forms.gle/roTXkMDXKyvhApxr7",
+      "A competition where programmers showcase their skills by solving algorithmic challenges and coding problems",
+    image: CC,
+    link: "https://forms.gle/qaLU1aSty8dQtTSe6",
     first: "(₹)1000",
     second: "(₹)500",
   },
@@ -73,9 +73,9 @@ export const EventData = [
     key: "3",
     title: "Capture The Flag",
     descrip:
-      "This CTF event is going to be in Jeopardy style. In this variant, players solve certainmproblems to acquire “flags” (a specific string of text) to win.",
-    image: CTF,
-    link: "https://forms.gle/poNeWYxHUad866ubA",
+      "A cybersecurity competition where participants hunt for vulnerabilities and exploit them to 'capture flags' while defending their own systems.",
+    image: CF,
+    link: "https://forms.gle/oPH1rh4tN8qDMcFW8",
     first: "(₹)1500",
     second: "(₹)1000",
   },
