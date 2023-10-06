@@ -45,13 +45,12 @@ const HomePage = ({
             ATRANG is the annual technical fest of IIIT, Tiruchirappalli. It is
             a stage to showcase and encourage young talent. It brings forward a
             communal platform to compete and learn together. ATRANG is filled
-            with exciting events such as a coding contest, hackathon, pitch your
-            Start-up, and many more. It gives the contributors and audience a
+            with exciting events such as Coding contest, Hackathon, Venture Quest,and many more. It gives the contributors and audience a
             chance to think out of the box and bring new ideas to the limelight.
           </p>
         </div>
       </div>
-      <hr className="hr" />
+    {/*   <hr className="hr" />
       <div className="home-section-two video-section-two">
         <div className="border-container coming-soon--border">
           <video className="cs-video--content" autoPlay muted loop>
@@ -59,7 +58,7 @@ const HomePage = ({
             Your browser is not supported the video format
           </video>
         </div>
-      </div>
+      </div> */}
       <hr className="hr organizer-hr" />
       <TechCouncil />
       <WebTeam />

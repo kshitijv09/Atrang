@@ -45,7 +45,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               <li>
                 <div class="timeline-content">
                   <h3 class="date">6th October,23, 01:30 PM - 5:00 PM</h3>
-                  <h1>Open Source</h1>
+                  <h1>Intro to Deep Learning and Brain-Computer Interfacing</h1>
                 </div>
               </li>
 
@@ -99,7 +99,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               <li>
                 <div class="timeline-content">
                   <h3 class="date">8th October,23, 9:30 AM - 01:00 PM</h3>
-                  <h1>Intro to Deep Learning and BIC</h1>
+                  <h1>FOSS: Free and Open Source</h1>
                 </div>
               </li>
                             <li>

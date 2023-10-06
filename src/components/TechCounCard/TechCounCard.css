@@ -36,8 +36,8 @@
 .image-main {
   object-fit: cover;
 }
-.sarthak {
-  background-image: url("../../Assests/sarthak.jpg");
+.bhadraksh{
+  background-image: url("../../Assets/bhadraksh.jpeg");
 }
 
 .jaggu {
@@ -49,11 +49,11 @@
 }
 
 .kshitij {
-  background-image: url("../../Assests/kshitij.jpg");
+  background-image: url("../../Assets/Kshitij.jpeg");
 }
 
-.nagamallishwar {
-  background-image: url("../../Assests/nagamallishwar.jpg");
+.rakshith {
+  background-image: url("../../Assets/Rakshith.jpg");
 }
 
 .team-card-hr {
@@ -172,6 +172,11 @@
   line-height: 16px;
   letter-spacing: 0px;
 }
+
+.team-card:hover .title{
+  display: none;
+}
+
 
 .team-card:hover .team-card-body .team-card-hr {
   opacity: 1;

@@ -19,7 +19,7 @@ const WebTeam = () => {
                   about={ele.about}
                   email={ele.email}
                   linkedIn={ele.linkedIn}
-                  portfolio={ele.portfolio}
+                  /* portfolio={ele.portfolio} */
                   tag={ele.tag}
                 />
               );

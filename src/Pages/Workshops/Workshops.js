@@ -1,13 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import blockChainImage from "../../Assests/Workshop.jpg";
+import { WorkshopData } from "../../Data/WorkshopsData";
 
-const workshopData = {
-  title: "BLOCK CHAIN WORKSHOP",
-  desc: "This Web3.0 and Blockchain workshop is an educational event aimed at providing a solid foundation in Web3 and blockchain technology. Attendees engage in hands-on activities and hear from industry experts, with a focus on exploring potential applications. Workshops also provide networking opportunities within the Web3 and blockchain community.",
-  img: blockChainImage,
-};
 
 const Workshops = () => {
   return (
@@ -15,24 +10,39 @@ const Workshops = () => {
       <Navbar />
       <div className="anim-main-container">
         <h1 className="glitch heading-atrang-main">
-          <span aria-hidden="true"> workshop</span>
-          workshop
-          <span aria-hidden="true"> workshop</span>
+          <span aria-hidden="true"> workshops & seminars</span>
+          workshops & seminars
+          <span aria-hidden="true"> workshops & seminars</span>
         </h1>
       </div>
       <div className="event-card--conatiner">
-        <section class="record">
-          <div class="record-arrow"></div>
-          <div
-            id="record1"
-            class="record-display"
-            style={{ backgroundImage: `url(${blockChainImage})` }}
-          ></div>
-          <div class="record-desc">
-            <h1>{workshopData?.title}</h1>
-            <p>{workshopData?.desc}</p>
-          </div>
-        </section>
+        {WorkshopData.map((mp)=>{
+          return(
+              <section class="record">
+              <div class="record-arrow"></div>
+              <div
+                id="record1"
+                class="record-display"
+                style={{ backgroundImage: `url(${mp.image})` }}
+              ></div>
+              <div class="record-desc">
+                <h1>{mp?.title}</h1>
+                <p>{mp?.desc}</p>
+                <button className="organizer-button">
+          <a
+            href={mp.link}
+            target="_blank"
+            className="organizer-button-a"
+            rel="noreferrer"
+          >
+            REGISTER NOW
+          </a>
+        </button>
+              </div>
+            </section>
+          )
+        })}
+        
       </div>
       <hr className="hr" />
       <Footer />

@@ -1,6 +1,6 @@
-import HK from "../Assets/Hackathon.jpg"
+import HK from "../Assets/Hackathon.jpeg"
 import LC from "../Assets/Linechasers.png"
-import VQ from "../Assets/Linechasers.png"
+import VQ from "../Assets/Venture.jpeg"
 import MR from "../Assets/ML.png"
 import CR from "../Assets/CrashCourse.png"
 import CC from "../Assets/CPContest.jpeg"
@@ -24,7 +24,7 @@ export const EventData = [
     descrip:
       "A competition where robots follow predefined paths in a test of precision and programming.",
     image: LC,
-    link: "https://forms.gle/wk5dKSY2K8LgeG1B6",
+    link: "https://forms.gle/4DCTgss2ufHvvrFB7",
     first: "(₹)1000",
     second: "(₹)500",
   },
@@ -55,7 +55,7 @@ export const EventData = [
     descrip:
       "A challenge focused on creating autonomous systems capable of detecting and avoiding obstacles in real-world scenarios.",
     image: CR,
-    link: "https://forms.gle/tjLcLV7yAhANm2mu6",
+    link: "https://forms.gle/8eLysZeRy2Lc7o8EA",
     first: "(₹)1000",
     second: "(₹)500",
   },

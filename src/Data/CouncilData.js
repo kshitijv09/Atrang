@@ -8,11 +8,11 @@ export const CouncilData = [
     name: "Rakshith Sakhamuri",
     post: "Technical Secretary",
     about:
-      "After being elected as the Technical Secretary I took the responsibility to develop the Club Culture in our college and helped clubs in conducting workshops, events and Inductions. I wanted to create a platform through clubs for people with similar passion to interact and work. I'm open to discussion and Ideas and together we can make ourselves and our institute better.",
-    email: "nnagamallishwar19e@iiitt.ac.in",
-    linkedIn: "https://www.linkedin.com/in/n-nagamallishwar-bb15b720b/",
+      "Tech enthusiast on a quest to explore the ever-evolving world of technology. Passionate about coding, problem-solving, and pushing the boundaries of what’s possible in the digital realm.",
+    email: "201131@iiitt.ac.in",
+    linkedIn: "https://www.linkedin.com/in/rakshith-sakhamuri-475930227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     portfolio: "",
-    tag: "nagamallishwar",
+    tag: "rakshith",
   },
   {
     key: "1",
@@ -20,10 +20,10 @@ export const CouncilData = [
     name: "Bhadraksh Bhargava",
     post: "Vice Tech Secretary",
     about:
-      "I began my coding journey in my school days and with time I learnt a lot in the field of Tech. I really want to work in this industry and contribute for its advancement"
-      ,email: "201132@iiitt.ac.in",
-    linkedIn: "https://www.linkedin.com/in/sarthak-kumar503/",
-    portfolio: "https://mai-sarthak.surge.sh",
-    tag: "sarthak",
+      "Tech enthusiast, immerising himself in various domains available to bring the best opportunities and excute plans to help the Students."
+      ,email: "211208@iiitt.ac.in",
+    linkedIn: "",
+    portfolio: "",
+    tag: "bhadraksh",
   },
 ];
